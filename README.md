@@ -20,7 +20,7 @@
 - initial value
 - inheritance
 - browser defaults
-- `%`, `rem`, `em` (for font), `em` (for length), `vh` and `vw`
+- `%`, `rem`, `em` (for font), `em` (for length depends on font), `vh` and `vw`
 
 ## How the browser loads CSS:
 Load HTML --> Parse HTML --> Load CSS --> (Resolve conflicts && Process final CSS value) --> CSSOM --> Render Tree -->
@@ -46,4 +46,54 @@ Render visual formatting model --> Render website
     4. elements, pseudo-elements
 - source order (when we have same specificity):
     1. last declaration in the code overrides
+
+## Visual formatting model?
+- box model
+- box types
+  - inline
+    - distributed in lines
+    - only content's spaces
+    - no line-breaks
+    - no heights and widths
+    - padding and margin only horizontal (left and right)
+  - block-level
+    - (block, flex, list-item, table)
+    - 100% of parent's width
+    - vertically
+    - box-model applied
+  - inline-block
+    - only content's spaces
+    - no line-breaks
+    - box-model applied
+
+## positioning
+- normal flow
+  - default positioning
+  - position: relative
+- floats
+  - text and inline elements wrap to the floated elements
+  - the container will not adjust its to the element
+- absolute positioning
+  - position: absolute
+
+## stacking context
+
+
+## think - build - architect mindset
+- think
+  - component-driven design
+  - atomic design
+- build
+  - BEM
+  - OOCSS
+  - SMACSS
+- architect
+  - 7-1 pattern (7 different folders for partial Sass files and 1 main Sass file to import all files):
+    - `base/` --> basic definitions
+    - `components/` --> one file for each component
+    - `layout/` --> layout of the project
+    - `pages/` --> styles of specific pages of the project
+    - `themes/` --> for different visual themes
+    - `abstracts/` --> variables & ...
+    - `vendors/` --> all third-party css codes
     

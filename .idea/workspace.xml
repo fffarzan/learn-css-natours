@@ -4,6 +4,7 @@
     <list default="true" id="f25582d1-cef4-4994-a23e-5e8ebe302c34" name="Changes" comment="Add heading to the header of the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,9 @@
       <updated>1667576719904</updated>
       <workItem from="1667576721063" duration="3438000" />
       <workItem from="1667635189986" duration="9978000" />
-      <workItem from="1667818443948" duration="6464000" />
+      <workItem from="1667818443948" duration="7583000" />
+      <workItem from="1667982907675" duration="1089000" />
+      <workItem from="1668021897103" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="Add heading to the header of the project">
       <created>1667639609301</created>
