@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "dev": "live-server & node-sass sass/main.scss css/style.css -w"
   },
   "keywords": [],
   "author": "fffarzan",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.2",
     "node-sass": "^8.0.0"
   }
 }
