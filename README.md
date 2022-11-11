@@ -14,6 +14,7 @@
     -   gradient
     -   box-shadow
     -   text
+    -   floats
 
 ## concepts:
 - box-sizing
@@ -97,3 +98,14 @@ Render visual formatting model --> Render website
     - `abstracts/` --> variables & ...
     - `vendors/` --> all third-party css codes
     
+
+# Sass
+- color functions (like `darken()`, `lighten()`)
+- mixins with arguments
+- functions
+- extend
+- nesting
+- variables
+- difference between extend and mixin
+- packages
+  - node-sass
