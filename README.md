@@ -97,7 +97,6 @@ Render visual formatting model --> Render website
     - `themes/` --> for different visual themes
     - `abstracts/` --> variables & ...
     - `vendors/` --> all third-party css codes
-    
 
 # Sass
 - color functions (like `darken()`, `lighten()`)
@@ -109,3 +108,22 @@ Render visual formatting model --> Render website
 - difference between extend and mixin
 - packages
   - node-sass
+
+# Responsive Design Principles
+- Fluid layout
+  - adapt with viewport width or height
+  - use `%`, `vh` or `vw` instead of `px`
+  - use `max-width` instead of `width`
+- responsive units
+  - use `rem` instead of `px`
+  - easy to scale down a page
+- flexible images
+  - fix images
+  - use `max-width` and `%`
+- media queries
+  - use breakpoints
+
+# Layout types
+  - float
+  - flexbox
+  - grid

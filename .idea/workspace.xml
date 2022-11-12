@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f25582d1-cef4-4994-a23e-5e8ebe302c34" name="Changes" comment="Add /css directory to gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    <list default="true" id="f25582d1-cef4-4994-a23e-5e8ebe302c34" name="Changes" comment="Remove /css directory from gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +24,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Projects/learn-css-advanced/learn-css-natours",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Projects/learn-css-advanced/learn-css-natours&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +50,9 @@
       <workItem from="1667982907675" duration="1089000" />
       <workItem from="1668021897103" duration="2855000" />
       <workItem from="1668170592484" duration="6580000" />
-      <workItem from="1668200314845" duration="3506000" />
+      <workItem from="1668200314845" duration="3605000" />
+      <workItem from="1668233697824" duration="3000" />
+      <workItem from="1668249433257" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="Add heading to the header of the project">
       <created>1667639609301</created>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668203837283</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Remove /css directory from gitignore">
+      <created>1668203879060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668203879060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +112,7 @@
     <MESSAGE value="Create a sass architecture for the project" />
     <MESSAGE value="Add live-server and scripts to run the project" />
     <MESSAGE value="Add /css directory to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add /css directory to gitignore" />
+    <MESSAGE value="Remove /css directory from gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove /css directory from gitignore" />
   </component>
 </project>
