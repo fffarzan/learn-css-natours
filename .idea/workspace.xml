@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f25582d1-cef4-4994-a23e-5e8ebe302c34" name="Changes" comment="Remove /css directory from gitignore">
+    <list default="true" id="f25582d1-cef4-4994-a23e-5e8ebe302c34" name="Changes" comment="Add responsive concepts and layout types to readme file">
+      <change afterPath="$PROJECT_DIR$/sass/layout/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -52,7 +74,7 @@
       <workItem from="1668170592484" duration="6580000" />
       <workItem from="1668200314845" duration="3605000" />
       <workItem from="1668233697824" duration="3000" />
-      <workItem from="1668249433257" duration="1198000" />
+      <workItem from="1668249433257" duration="6525000" />
     </task>
     <task id="LOCAL-00001" summary="Add heading to the header of the project">
       <created>1667639609301</created>
@@ -89,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668203879060</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add responsive concepts and layout types to readme file">
+      <created>1668250689261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668250689261</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +142,7 @@
     <MESSAGE value="Add live-server and scripts to run the project" />
     <MESSAGE value="Add /css directory to gitignore" />
     <MESSAGE value="Remove /css directory from gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove /css directory from gitignore" />
+    <MESSAGE value="Add responsive concepts and layout types to readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add responsive concepts and layout types to readme file" />
   </component>
 </project>
